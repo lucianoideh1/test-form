@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(120, 202, 213);
+}
+header {
+    color: white;
+}
+h2 {
+    background-color: brown;
+}
+
+form {
+    background-color: grey;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+form input {
+    max-width: 500px;
+    min-height: 20px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    border: none;
+    font-weight: 800;
+    font-size: 25px;
+   
+    background-color: brown;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(31, 116, 83);   
+    color: white;
+}
